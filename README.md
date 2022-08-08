@@ -23,6 +23,7 @@ cd people-manager-rest-api
 ```
 
 ### Install
+
 ```shell
 mvn package
 ```
@@ -36,15 +37,22 @@ The `java -jar` command builds and run the application on http://localhost:8080
 Shut it down manually with `Ctrl-C`.
 
 ## EndPoints
-### Open the URL http://localhost:8080/swagger-ui.html to see the API Documentation with SwaggerUI.
+
+### Open the URL http://localhost:8080/swagger-ui.html to see the API Documentation with Swagger UI.
+![image](https://user-images.githubusercontent.com/15036089/183514483-9c96b490-a2ca-448b-9335-f9681d6250b5.png)
+
+## DataBase Console
+
+### Open the URL [http://localhost:8080/h2-console](http://localhost:8080/h2-console) to see the database details.
+![image](https://user-images.githubusercontent.com/15036089/183514738-47cf63a2-8677-4119-b44e-216139e783ce.png)
+![image](https://user-images.githubusercontent.com/15036089/183514827-94b1f01d-7324-4e52-aa63-6eaf3a078f35.png)
+
 
 ## Built With
 
 * [Java 11](https://www.oracle.com/mx/java/technologies/javase/jdk11-archive-downloads.html)
-* [Spring Boot 2.6.4]https://mvnrepository.com/artifact/org.springframework.boot/spring-boot/2.6.4)
-* [MySQL Driver 8.0.18](https://dev.mysql.com/blog-archive/mysql-connector-odbc-8-0-18/)
-* [Log4j 1.2.17](https://logging.apache.org/log4j/1.2/download.html)
-* [Twitter4J 4.0.7](https://twitter4j.org/en/index.html)
+* [Spring Boot 2.5.2](https://mvnrepository.com/artifact/org.springframework.boot/spring-boot/2.5.2)
+* [H2 DataBase]([https://dev.mysql.com/blog-archive/mysql-connector-odbc-8-0-18/](https://www.h2database.com/html/main.html))
 
 ## Creators
 
